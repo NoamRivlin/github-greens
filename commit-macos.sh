@@ -4,18 +4,18 @@
 git_user_name=$(git config user.name)
 git_user_email=$(git config user.email)
 
-friday="5"
-saturday="6"
-sunday="7"
+friday="6"
+saturday="7"
+sunday="1"
 
 ################################################
 
 # You can change these variables to change the start and end dates of the commits
-start_date="2023-06-01"
-end_date="2023-08-16"
+start_date="2023-01-01"
+end_date="2023-11-20"
 
 # You can choose to exclude certain days of the week from having commits. You can exclude up to 3 days.
-exclude_days=("$saturday" "$sunday")
+exclude_days=("$saturday" "$friday")
 
 # Other examples
 # exclude_days=("$friday" "$saturday")
